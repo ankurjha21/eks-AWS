@@ -46,7 +46,7 @@ spec:
       labels:
         app: external-dns
       annotations:
-        iam.amazonaws.com/role: arn:aws:iam::880172922216:role/external-dns-${CLUSTER_NAME}
+        iam.amazonaws.com/role: arn:aws:iam:::role/external-dns-${CLUSTER_NAME}
     spec:
       serviceAccountName: external-dns
       containers:
