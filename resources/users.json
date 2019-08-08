@@ -1,0 +1,11 @@
+{
+    "apiVersion": "v1",
+    "data": {
+        "mapUsers": "- userarn: arn:aws:iam:::user/username\n  username: username\n  groups:\n    - system:masters\n" system:masters\n"
+    },
+    "kind": "ConfigMap",
+    "metadata": {
+        "name": "aws-auth",
+        "namespace": "kube-system"
+    }
+}
