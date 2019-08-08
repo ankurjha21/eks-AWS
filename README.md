@@ -34,10 +34,7 @@ You should especify one environment:
 ```
 
 If you choose the `prod` option, the script will ask to you in which aws region must be placed this new cluster:
-- 1) eu-west-1 Ireland
-- 2) us-east-1 North Virginia
-- 3) ap-northeast-1 Tokyo
-- 4) ap-southeast-2 Sydney
+- 1) eu-west-1 
 
 <a id="script-steps">
 
