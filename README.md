@@ -1,3 +1,7 @@
+#Please See my Medium story for details 
+
+https://medium.com/@ankur.jha/eks-cbb191108a0?sk=57e3988363405be5bc1d24588fcb9c6e
+
 # eks-AWS
 
 ### Table of Contents
@@ -80,3 +84,4 @@ helm delete nginx-ingress --purge
 kubectl delete ingress,svc,deployment nginx
 eksctl delete cluster --name ${CLUSTER_NAME}
 ```
+
