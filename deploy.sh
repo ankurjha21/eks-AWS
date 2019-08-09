@@ -94,7 +94,7 @@ case ${1} in
 # ---------------------------
     mgmt|nonprod)
         echo "Creating ${1} cluster..."
-        source environments/${1}/eu-west-1-ireland.sh
+        source environments/${1}/eu-ireland.sh
         create_cluster
         echo ""
 
@@ -122,7 +122,7 @@ case ${1} in
         deploy_keel
         echo ""
 
-        echo "Apply CSTeam users"
+        echo "Apply  users"
         deploy_users
         echo ""
 
@@ -133,10 +133,9 @@ case ${1} in
     prod)
         echo -e ''' 
         Choose one Region:
-        1) eu-west-1 Ireland
-        2) us-east-1 North Virginia
-        3) ap-northeast-1 Tokyo
-        4) ap-southeast-2 Sydney
+        1) eu-west-1 
+        2) us-east-1 
+ 
         '''
         read OPT
         clear
