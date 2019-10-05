@@ -1,0 +1,16 @@
+#!/bin/bash
+
+export CLUSTER_NAME="name"
+export CLUSTER_TAGS="Env=nonprod,BillType=name,Application=k8s"
+export AWS_REGION="us-west-2"
+export AWS_VPC_CIDR="ip"
+export AWS_PRIVATE_SUBNETS="subnet-id"
+export AWS_PUBLIC_SUBNETS="subnet-id"
+export AWS_NODE_NAME="core"
+export AWS_NODE_LABELS="autoscaling=enabled,purpose=env"
+export AWS_NODE_TYPE="t2.small"
+export AWS_NODE_VOL="20"
+export AWS_NODE_AMI="ami-id"
+export AWS_NODE_SIZE="2"
+export AWS_NODE_MIN="2"
+export AWS_NODE_MAX="3"
